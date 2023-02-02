@@ -18,10 +18,6 @@ export class SamplePageComponent implements OnInit {
     this.images = images.images
     this.getImages(); 
     console.log(this.images)
-
-    // this.imagesData.forEach((data: any) => {
-
-    // })
   }
 
   getImages() {

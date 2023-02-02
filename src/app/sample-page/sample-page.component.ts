@@ -16,7 +16,7 @@ export class SamplePageComponent implements OnInit {
 
   ngOnInit(): void {
     this.images = images.images
-    this.getImages();
+    this.getImages(); 
     console.log(this.images)
 
     // this.imagesData.forEach((data: any) => {

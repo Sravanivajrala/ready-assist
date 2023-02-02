@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <div class="row">
+        <div>
+            <ul class="sample-page" *ngFor="let img of imagesData; let i = index">
+                <li class="each-img">
+                    <div>
+                        <img [src]="img?.img" alt="" width="200" height="200">
+                    </div>
+                    <div>NAME:{{img?.name}}</div>
+                    <div>STATE:{{img?.state}}</div>
+                    <div>LAT:{{img?.lat}}</div>
+                    <div>LON:{{img?.lon}}</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

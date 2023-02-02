@@ -1,0 +1,22 @@
+.sample-page {
+        display: inline-flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 20%;
+    .each-img {
+        margin: 3%;
+        border: solid #00000008;
+        height: 100%;
+        width: 50%;
+        list-style-type: none;
+        div {
+            font-size: x-small;
+        }
+        img {
+            border: solid lightgrey;
+            border-radius: 5%;
+        }
+    }
+}
+
